@@ -4,9 +4,8 @@ Console.Write("Введите число: ");
 
 int num = int.Parse(Console.ReadLine());
 
-int n = num / 2;
 
-if(num / 2);
+if(num % 2 == 0)
 {
    Console.WriteLine(" Число " + num + " чётное ");
 }
